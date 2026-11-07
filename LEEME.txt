@@ -1,0 +1,36 @@
+COTIZA CL · App instalable para Android
+=======================================
+
+Esta carpeta es la app completa. Para instalarla en el teléfono hay que
+publicarla en una dirección https (gratis). La opción más simple:
+
+GITHUB PAGES (recomendado, queda fija para siempre)
+1. Entra a github.com y crea un repositorio nuevo, por ejemplo "cotiza-cl".
+   Puede ser público.
+2. En el repositorio: "Add file" > "Upload files". Arrastra TODO el
+   contenido de esta carpeta (index.html, sw.js, manifest.webmanifest y las
+   carpetas icons, fonts y vendor). Luego "Commit changes".
+3. Settings > Pages > Source: "Deploy from a branch" > Branch: main / (root)
+   > Save.
+4. Espera 1 o 2 minutos. Tu app queda en:
+   https://TU-USUARIO.github.io/cotiza-cl/
+
+INSTALAR EN EL TELÉFONO (Android, Chrome)
+1. Abre esa dirección en Chrome.
+2. Toca "Instalar" en la tarjeta de la app, o en el menú ⋮ > "Instalar app"
+   / "Agregar a pantalla de inicio".
+3. Queda el ícono de Cotiza CL. Abre a pantalla completa y funciona sin
+   internet.
+
+PASAR TUS DATOS DESDE LA VERSIÓN DE CLAUDE
+1. En la app de Claude: Perfiles > Respaldo > Descargar.
+2. En el teléfono, en Cotiza CL: Perfiles > Respaldo > Importar, y elige ese
+   archivo .json.
+
+IMPORTANTE
+- Los datos quedan guardados solo en tu teléfono. Descarga un respaldo de
+  vez en cuando (Perfiles > Respaldo) y guárdalo en Drive o en tu correo.
+- Si desinstalas la app o borras los datos de Chrome, se pierde lo que no
+  hayas respaldado.
+- Para actualizar la app, sube los archivos nuevos al mismo repositorio. El
+  teléfono toma la versión nueva la próxima vez que la abras con internet.
